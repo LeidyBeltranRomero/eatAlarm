@@ -6,24 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.AddArtistFragment">
 
-    <EditText
-        android:id="@+id/fecha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/common_form_field"
-        android:minHeight="48dp"
-        android:paddingStart="24dp"
-        android:textColor="#2B4181"
-        android:textColorHint="#213B87"
-        android:textSize="20sp"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="307dp" />
-
     <TextView
         android:layout_width="190dp"
         android:layout_height="33dp"
@@ -84,9 +66,9 @@
         android:textSize="20sp"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="175dp" />
+        tools:layout_editor_absoluteY="215dp" />
 
     <EditText
         android:id="@+id/Fecha"
@@ -102,8 +84,34 @@
         android:textSize="20sp"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/common_form_field"
+        android:minHeight="48dp"
+        android:paddingStart="24dp"
+        android:textColor="#2B4181"
+        android:textColorHint="#213B87"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Alarma"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="184dp" />
 
 </android.support.constraint.ConstraintLayout>
